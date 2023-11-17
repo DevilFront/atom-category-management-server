@@ -2,26 +2,134 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.layout-container {
+    /*width: 20rem;*/
+    height: 100vh !important;
+    /*background: yellow;*/
+    /*background: darkturquoise !important;*/
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.layout-sider {
+    /*background: darkturquoise !important;*/
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.content-section {
+    /*width: 100%;*/
+    flex-grow: 1;
+    padding-left: 2rem;
+    background: rgb(245, 245, 245);
 }
+
+/*.ant-layout-sider-children {*/
+/*    background: #40B5BC !important;*/
+/*}*/
+
+/*.ant-menu-item {*/
+/*    background: #40B5BC !important;*/
+/*    font-size: 1rem;*/
+/*}*/
+
+/*.ant-menu.ant-menu-dark {*/
+/*    background: #40B5BC !important;*/
+/*}*/
+
+/*.ant-layout-sider-trigger {*/
+/*    background: #5AC6C6 !important;*/
+/*}*/
+
+
+.layout-pagename {
+    padding-top: 1.5rem;
+    font-size: 1.7rem;
+    /*font-weight: bold;*/
+}
+
+.right-section {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    min-height: 3rem;
+    background: rgb(0, 21, 41) !important;
+}
+
+.sidebar-logo {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 2rem;
+    line-height: 4rem;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 1.5rem;
+    background: chocolate;
+    color: white;
+}
+
+.header-user {
+    display: flex;
+}
+
+.user-name {
+    margin-left: 5px;
+    line-height: 2rem;
+    margin-right: 1rem;
+}
+
+.ad-list-box {
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.list-title {
+    font-size: 1.1rem;
+}
+
+.setting-btn {
+    margin-right: 3rem;
+}
+
+.mapping-search-input {
+    margin-right: 2rem;
+}
+
+.category-list-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.mapping-main-container {
+    margin-top: 3rem;
+}
+
+/*:root {*/
+/*  --foreground-rgb: 0, 0, 0;*/
+/*  --background-start-rgb: 214, 219, 220;*/
+/*  --background-end-rgb: 255, 255, 255;*/
+/*}*/
+
+/*@media (prefers-color-scheme: dark) {*/
+/*  :root {*/
+/*    --foreground-rgb: 255, 255, 255;*/
+/*    --background-start-rgb: 0, 0, 0;*/
+/*    --background-end-rgb: 0, 0, 0;*/
+/*  }*/
+/*}*/
+
+/*body {*/
+/*  color: rgb(var(--foreground-rgb));*/
+/*  background: linear-gradient(*/
+/*      to bottom,*/
+/*      transparent,*/
+/*      rgb(var(--background-end-rgb))*/
+/*    )*/
+/*    rgb(var(--background-start-rgb));*/
+/*}*/
